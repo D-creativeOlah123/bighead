@@ -1,0 +1,71 @@
+body {
+    background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+section {
+    background-color: navy;
+    padding: 20px;
+    /* width: 500px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+section div {
+    width: 200px;
+    height: 200px;
+    /* display:inline */
+}
+section div:first-child {
+    background-color: red;
+    /* height: 30px; */
+}
+section div:nth-child(2) {
+    background-color: blue;
+    /* height: 3rem; */
+}
+section div:nth-child(3) {
+    background-color: green;
+    /* visibility: hidden; */
+    /* height: 1rem; */
+}
+section div:nth-child(4) {
+    background-color: orange;
+    /* height: 7rem; */
+}
+section div:nth-child(5) {
+    background-color: purple;
+    /* height: 100px; */
+}
+section div:nth-child(6) {
+    background-color: pink;
+    
+}
+section div:nth-child(7) {
+    background-color: grey;
+    
+}
+section div:last-child {
+    background-color: yellow;
+    /* display: none; */
+}
+span {
+    color: white;
+    display: block;
+    background-color: red;
+    text-align: center;
+    
+}
+button {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: bkack;
+    margin: auto;
+}
